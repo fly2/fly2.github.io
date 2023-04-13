@@ -152,12 +152,10 @@
 
 <h3 id="数据集构建">数据集构建</h3>
 
-<p>在论文中每个api调用由一个数组表示，$c=(a_c,i_c)$,$a_c$表示调用的api名称，$i_c$表示调用api所对应的输入。r表示api调用c的返回结果。</p>
-
-\[e(c) = &lt;API&gt;a_c(i_c)&lt;/API&gt; \\
-e(c, r) = &lt;API&gt;a_c(i_c) \rightarrow r_i&lt;/API&gt;\]
-
-<p>其中<code class="language-plaintext highlighter-rouge">&lt;API&gt;</code>、<code class="language-plaintext highlighter-rouge">&lt;/API&gt;</code>、<code class="language-plaintext highlighter-rouge">→</code>都是特殊的token，在实际使用中使用<code class="language-plaintext highlighter-rouge">[</code>代替<code class="language-plaintext highlighter-rouge">&lt;API&gt;</code>,<code class="language-plaintext highlighter-rouge">]</code>代替<code class="language-plaintext highlighter-rouge">&lt;/API&gt;</code>，<code class="language-plaintext highlighter-rouge">-&gt;</code>代替<code class="language-plaintext highlighter-rouge">→</code>。文章中为了便于阅读，不进行这种替换。</p>
+<p>在论文中每个api调用由一个数组表示，$c=(a_c,i_c)$,$a_c$表示调用的api名称，$i_c$表示调用api所对应的输入。r表示api调用c的返回结果。
+\(e(c) = &lt;API&gt;a_c(i_c)&lt;/API&gt; \\
+e(c, r) = &lt;API&gt;a_c(i_c) \rightarrow r_i&lt;/API&gt;\)
+其中<code class="language-plaintext highlighter-rouge">&lt;API&gt;</code>、<code class="language-plaintext highlighter-rouge">&lt;/API&gt;</code>、<code class="language-plaintext highlighter-rouge">→</code>都是特殊的token，在实际使用中使用<code class="language-plaintext highlighter-rouge">[</code>代替<code class="language-plaintext highlighter-rouge">&lt;API&gt;</code>,<code class="language-plaintext highlighter-rouge">]</code>代替<code class="language-plaintext highlighter-rouge">&lt;/API&gt;</code>，<code class="language-plaintext highlighter-rouge">-&gt;</code>代替<code class="language-plaintext highlighter-rouge">→</code>。文章中为了便于阅读，不进行这种替换。</p>
 
 <table>
   <tbody>
